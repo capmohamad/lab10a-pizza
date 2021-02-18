@@ -1,0 +1,124 @@
+
+
+
+
+header{
+  
+  margin: 20px;
+  height: 50px;
+    
+}
+h1{
+  font-size: 20px;
+}
+/* top right bottom */
+#logo {
+
+  float: left;
+  
+}
+#title{
+ 
+  position: relative;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+body{
+  
+  font-family: Arial;
+    padding: 10px;
+    background-color: #FBFBFB;
+}
+
+
+nav{
+  float: right;
+ 
+}
+nav ul{
+  position: relative;
+}
+nav ul li{
+  display: inline-block;
+}
+
+#firstUL{
+  float: left;
+}
+
+#secondUL{
+
+  margin-left: 10px;
+  float:right
+  
+  
+}
+
+#target {
+  border: 0;
+  height: 10px;
+  background-image: url('../img/hr-img.png');  
+  overflow: hidden;
+}
+
+
+
+#chocoPizza{
+  float: left
+}
+
+#printImg{
+  float: right;
+}
+#printText{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    background: #BC7058;
+    padding: 15px 22px 15px 22px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+
+
+  #footerHR {
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url('../img/small-logo.png');
+}
